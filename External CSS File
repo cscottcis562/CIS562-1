@@ -1,0 +1,99 @@
+<html><head><link rel="alternate stylesheet" type="text/css" href="resource://gre-resources/plaintext.css" title="Wrap Long Lines"></head><body><pre>body {padding:0; margin:0; background:#AD292C}
+
+td{
+	font-size: 14px;
+	font-family: Times New Roman, Times, serif;
+	color: #E88184;
+	line-height: 15.5px;
+	vertical-align: top;
+	padding: 0px;
+}
+
+body{
+	font-size: 14px;
+	font-family: Times New Roman, Times, serif;
+	color: #E88184;
+	line-height: 15.5px;
+	vertical-align: top;
+	padding: 0px;
+}
+
+h1{
+	font-size: medium;
+	font-family: Times New Roman, Times, serif;
+	color: #E88184;
+	line-height: 14px;
+	vertical-align: top;
+	padding: 0px;
+}
+
+h2{color:#C10000;font-family:Arial, Helvetica, sans-serif
+}
+.style2 {
+	font-size: 11px
+}
+
+br{font-size:10px}
+table{border:0px; border-collapse:collapse;	padding:0px;}
+
+.border{ background:#000000; width:1px; height:1px} 
+.bg{width:766px; height:838px; background:url(images/bg.gif)}
+
+.left{ background:url(images/left.jpg); width:54px}
+.right{ background:url(images/right.jpg); width:200px}
+
+.header{ background:url(images/top.jpg); height:230px}
+
+a{
+	color: AD292C;
+	text-decoration: underline;
+} 
+a:hover{text-decoration:none}
+
+strong a{color:#FFFFFF; text-decoration:underline} 
+strong a:hover{text-decoration:none}
+
+b a{color:#FFFFFF; text-decoration:none} 
+b a:hover{text-decoration:underline}
+
+ul{margin:0; padding:0; list-style:none; line-height:20px}
+li{background:url(images/1_z1.gif)  center left no-repeat; margin:0px; padding-left:8px }
+li a{color:#E88184;} 
+ 
+
+.footer{color:#FFFFFF; size: 11px; font-family:Tahoma; background:url(images/bot.jpg)} 
+.footer a {color:#FFFFFF;} 
+
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer&gt;#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+
+#prevLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:visited:hover { background: url(images/prevlabel.gif) left 15% no-repeat; }
+#prevLink:hover { background: url(images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:visited:hover { background: url(images/nextlabel.gif) right 15% no-repeat; }
+
+#nextLink:hover { background: url(images/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold; color:black	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }.
+</pre></body></html>
